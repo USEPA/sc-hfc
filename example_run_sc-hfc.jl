@@ -1,6 +1,6 @@
-## first clone the MimiIWG-HFC repo (e.g., git clone https://github.com/bryanparthum/MimiIWG-HFC.git)
-## then navigate in the Julia REPL to the folder where you cloned the repo
-## using cd("location of the MimiIWG-HFC directory (folder)")
+## first, clone the MimiIWG-HFC repo (e.g., git clone https://github.com/USEPA/sc-hfc.git)
+## second, navigate in the Julia REPL to the folder where you cloned the repo
+## using cd("location of the sc-hfc directory (folder)")
 
 ## get package 
 using Pkg
@@ -37,4 +37,4 @@ Pkg.develop("MimiIWG")
 ## check status to confirm that Julia is now being pointed to the dev folder
 Pkg.status() 
 
-## now edit the pakage as necessary for your analysis (radiative forcings, etc.)
+## now edit the package as necessary for your analysis (radiative forcings, etc.)
