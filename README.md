@@ -24,7 +24,7 @@ The estimates of the SC-HFCs were estimated using [Mimi](https://www.mimiframewo
 Begin by downloading the latest version of the [julia language](https://julialang.org/downloads/), and then clone this repository to your local machine with
 
 ```
-git clone https://github.com/bryanparthum/MimiIWG-HFC.git
+git clone https://github.com/USEPA/sc-hfc
 ```
 
 If you are running these scripts for the first time you'll need to do the following. If not this should be taken care of for you in "core/1_estimate_sc_hfcs.jl", although it won't hurt to do this explicitly.
